@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Pinterest Video Downloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last Updated:</strong> [Insert Date]</p>
+        
+        <h2>Introduction</h2>
+        <p>Welcome to Pinterest Video Downloader, developed by Esamtech Studios. This app allows users to download videos from Pinterest. We respect your privacy and are committed to protecting your personal data.</p>
+        
+        <h2>Information We Collect</h2>
+        <p>We do not collect any personal information from users. However, third-party services such as Google AdMob may collect data for advertising purposes.</p>
+        
+        <h2>Third-Party Services</h2>
+        <p>We use AdMob by Google for monetization. AdMob may collect data such as device information, IP address, and advertising identifiers to provide personalized ads. Please review <a href="https://policies.google.com/privacy" target="_blank">Google’s Privacy Policy</a> for more details.</p>
+        
+        <h2>Permissions</h2>
+        <p>Our app may request storage permissions to save downloaded videos. We do not access or collect any personal data through these permissions.</p>
+        
+        <h2>Children’s Privacy</h2>
+        <p>Our app is not intended for children under 13. We do not knowingly collect any personal data from children.</p>
+        
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+        
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at <strong>esamtech.in@gmail.com</strong>.</p>
+    </div>
+</body>
+</html>
