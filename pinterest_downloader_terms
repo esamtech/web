@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - Pinterest Video Downloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Terms and Conditions</h1>
+        <p><strong>Last Updated:</strong> [Insert Date]</p>
+        
+        <h2>Acceptance of Terms</h2>
+        <p>By downloading or using the Pinterest Video Downloader app, you agree to comply with these Terms and Conditions. If you do not agree, please do not use the app.</p>
+        
+        <h2>Use of the App</h2>
+        <p>This app is intended for personal and non-commercial use only. You agree not to use the app for any illegal or unauthorized purpose.</p>
+        
+        <h2>Intellectual Property</h2>
+        <p>All trademarks, logos, and content within the app are the property of their respective owners. This app is not affiliated with or endorsed by Pinterest.</p>
+        
+        <h2>Disclaimer</h2>
+        <p>This app is provided "as is" without any warranties. We do not guarantee the accuracy, reliability, or availability of the app.</p>
+        
+        <h2>Limitation of Liability</h2>
+        <p>Esamtech Studios shall not be liable for any damages arising from the use of this app, including but not limited to data loss or device malfunctions.</p>
+        
+        <h2>Third-Party Ads</h2>
+        <p>Our app uses Google AdMob for monetization. Advertisements may be displayed based on your interests. Please review <a href="https://policies.google.com/privacy" target="_blank">Google’s Privacy Policy</a> for more details.</p>
+        
+        <h2>Changes to Terms</h2>
+        <p>We reserve the right to update these Terms and Conditions at any time. Continued use of the app after changes signifies your acceptance of the updated terms.</p>
+        
+        <h2>Contact Us</h2>
+        <p>If you have any questions about these Terms and Conditions, please contact us at <strong>esamtech.in@gmail.com</strong>.</p>
+    </div>
+</body>
+</html>
