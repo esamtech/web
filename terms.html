@@ -1,19 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms and Conditions</title>
+    <title>Terms and Conditions | Esamtech Studios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfc;
+            color: #111;
+        }
+        /* Custom typography styling for legal text */
+        .legal-content h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: -0.025em;
+        }
+        .legal-content p {
+            color: #4b5563;
+            line-height: 1.75;
+            margin-bottom: 1rem;
+        }
+        .legal-content ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+        .legal-content li {
+            margin-bottom: 0.5rem;
+        }
+        .legal-content a {
+            color: #111;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+    </style>
 </head>
-<body>
-    <h1>Terms and Conditions</h1>
-    <p>Welcome to Esamtech Studios. Please read these terms and conditions carefully before using our services.</p>
-    <p>By using our applications and services, you agree to comply with the following terms and conditions:</p>
-    <ul>
-        <li>Your use of our services is at your sole risk.</li>
-        <li>We reserve the right to modify or terminate the service for any reason, without notice, at any time.</li>
-        <li>Any unauthorized use of our services is prohibited and will result in legal action.</li>
-    </ul>
-    <p>For further inquiries, please contact the owner, MD Samim, directly at <a href="mailto:info@esamtechstudios.com">info@esamtechstudios.com</a>.</p>
+<body class="flex flex-col min-h-screen antialiased selection:bg-black selection:text-white">
+
+    <nav class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold tracking-tight">Esamtech Studios.</a>
+            <div class="space-x-6 text-sm font-medium text-gray-600">
+                <a href="index.html" class="hover:text-black transition-colors">Our Apps</a>
+                <a href="about.html" class="hover:text-black transition-colors">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-white border-b border-gray-100 py-16 md:py-24">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mb-4">Terms and Conditions</h1>
+            <p class="text-gray-500">Effective Date: March 26, 2026</p>
+        </div>
+    </header>
+
+    <main class="flex-grow bg-white py-12 md:py-20">
+        <div class="max-w-3xl mx-auto px-6 legal-content">
+            
+            <p class="text-lg font-medium text-black">Welcome to Esamtech Studios. Please read these terms and conditions carefully before using our services.</p>
+            <p>By downloading, accessing, or using any applications or services provided by Esamtech Studios, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must discontinue use of our services immediately.</p>
+
+            <h2>1. Use of Services</h2>
+            <p>Esamtech Studios provides a variety of mobile utility applications, media tools, and network services. You agree to use these services only for lawful purposes and in accordance with these Terms.</p>
+            <ul>
+                <li>Your use of our services is at your sole risk. The services are provided on an "AS IS" and "AS AVAILABLE" basis.</li>
+                <li>You are responsible for any data charges or network fees incurred while using our applications.</li>
+            </ul>
+
+            <h2>2. Prohibited Conduct</h2>
+            <p>To ensure a safe and reliable environment for all users, any unauthorized use of our services is strictly prohibited and will result in immediate termination of access and potential legal action. You agree not to:</p>
+            <ul>
+                <li>Reverse engineer, decompile, or disassemble any of our applications.</li>
+                <li>Use our apps (such as ImgBB or video downloaders) to host, distribute, or share illegal, copyrighted, or malicious content.</li>
+                <li>Attempt to gain unauthorized access to our servers, APIs, or underlying infrastructure.</li>
+                <li>Use automated systems, bots, or scrapers to interact with our services in a way that exhausts our server resources.</li>
+            </ul>
+
+            <h2>3. Intellectual Property</h2>
+            <p>All content, features, functionality, and branding within our applications—including but not limited to logos, source code, UI/UX design, and text—are the exclusive property of Esamtech Studios and are protected by international copyright and trademark laws.</p>
+
+            <h2>4. Service Modifications and Termination</h2>
+            <p>We are constantly innovating and improving our app ecosystem. Therefore:</p>
+            <ul>
+                <li>We reserve the right to modify, update, suspend, or discontinue any application or service (or any part thereof) for any reason, without prior notice, at any time.</li>
+                <li>We may update these Terms and Conditions periodically. Continued use of our apps after changes constitutes your acceptance of the new terms.</li>
+            </ul>
+
+            <h2>5. Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, Esamtech Studios and its developers shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising out of your access to or use of (or inability to use) our applications.</p>
+
+            <h2>6. Contact Information</h2>
+            <p>If you have any questions, concerns, or require further clarification regarding these Terms and Conditions, please reach out to the owner, MD Samim, directly at:</p>
+            <p><strong>Email:</strong> <a href="mailto:info@esamtechstudios.com">info@esamtechstudios.com</a></p>
+
+        </div>
+    </main>
+
+    <footer class="bg-[#0a0a0a] text-white py-16">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+                <h4 class="text-2xl font-bold mb-4">Esamtech Studios.</h4>
+                <p class="text-gray-400 text-sm max-w-sm mb-6">
+                    Dedicated to creating high-performance, user-friendly mobile applications that turn ideas into reality.
+                </p>
+                <p class="text-gray-500 text-sm">
+                    &copy; 2026 Esamtech Studios. All rights reserved.
+                </p>
+            </div>
+            
+            <div class="md:text-right">
+                <h5 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">Policy Index</h5>
+                <ul class="space-y-3">
+                    <li><a href="about.html" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+                    <li><a href="privacy.html" class="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="text-white transition-colors">Terms and Conditions</a></li>
+                    <li class="pt-4 mt-4 border-t border-gray-800">
+                        <a href="mailto:esamtech.in@gmail.com" class="text-gray-300 hover:text-white transition-colors">esamtech.in@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
