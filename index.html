@@ -26,6 +26,12 @@
             background: #111;
             color: #fff;
         }
+        .stat-divider {
+            border-right: 1px solid #eaeaea;
+        }
+        .stat-divider:last-child {
+            border-right: none;
+        }
     </style>
 </head>
 <body class="flex flex-col min-h-screen antialiased selection:bg-black selection:text-white">
@@ -34,6 +40,7 @@
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-xl font-bold tracking-tight">Esamtech Studios.</a>
             <div class="space-x-6 text-sm font-medium text-gray-600">
+                <a href="#principles" class="hover:text-black transition-colors">Principles</a>
                 <a href="#apps" class="hover:text-black transition-colors">Our Apps</a>
                 <a href="about.html" class="hover:text-black transition-colors">About</a>
             </div>
@@ -54,70 +61,122 @@
         </a>
     </header>
 
-    <main id="apps" class="flex-grow bg-white border-t border-gray-100 py-20">
+    <section class="border-y border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 text-center">
+            <div class="py-10 stat-divider border-b md:border-b-0 border-gray-200">
+                <p class="text-4xl font-bold tracking-tight mb-1">100K+</p>
+                <p class="text-sm text-gray-500 uppercase tracking-widest font-medium">Global Users</p>
+            </div>
+            <div class="py-10 stat-divider border-b md:border-b-0 border-gray-200">
+                <p class="text-4xl font-bold tracking-tight mb-1">10+</p>
+                <p class="text-sm text-gray-500 uppercase tracking-widest font-medium">Active Apps</p>
+            </div>
+            <div class="py-10 stat-divider">
+                <p class="text-4xl font-bold tracking-tight mb-1">4.5★</p>
+                <p class="text-sm text-gray-500 uppercase tracking-widest font-medium">Avg Rating</p>
+            </div>
+            <div class="py-10 stat-divider">
+                <p class="text-4xl font-bold tracking-tight mb-1">2018</p>
+                <p class="text-sm text-gray-500 uppercase tracking-widest font-medium">Established</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="principles" class="bg-[#fcfcfc] py-24 border-b border-gray-100">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold tracking-tight mb-12">Family of Apps</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <div class="w-10 h-10 border border-black rounded-lg mb-6 flex items-center justify-center">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Privacy First</h3>
+                    <p class="text-gray-500 leading-relaxed text-sm">Our utilities are built to function seamlessly on-device. We minimize data collection and never sell your information to third parties.</p>
+                </div>
+                <div>
+                    <div class="w-10 h-10 border border-black rounded-lg mb-6 flex items-center justify-center">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Scalable Infrastructure</h3>
+                    <p class="text-gray-500 leading-relaxed text-sm">From heavy media streaming to instant image hosting, our backends are engineered for zero downtime and blazing fast load speeds.</p>
+                </div>
+                <div>
+                    <div class="w-10 h-10 border border-black rounded-lg mb-6 flex items-center justify-center">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Clean UI/UX</h3>
+                    <p class="text-gray-500 leading-relaxed text-sm">We believe tools should get out of your way. Our applications feature minimalist, distraction-free interfaces designed for efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="apps" class="flex-grow bg-white py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex justify-between items-end mb-12">
+                <h2 class="text-3xl font-bold tracking-tight">Family of Apps</h2>
+                <a href="https://play.google.com/store/apps/dev?id=7996153649042722363" class="text-sm font-medium hover:underline hidden md:block">See all on Play Store &rarr;</a>
+            </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">🖼️</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">ImgBB</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">A fast, scalable image link generator and cloud hosting tool designed for instant sharing.</p>
                     <a href="https://play.google.com/store/apps/details?id=com.esamtech.imgbb" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">▶️</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">Eniplay: M3U8 & IPTV</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">Stream any video instantly. Supports a wide range of formats including HLS, M3U8, and MP4 playlists.</p>
                     <a href="https://play.google.com/store/apps/details?id=com.eniplay.videostream" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">🌍</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">TrackIP</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">A powerful network tool to locate and track any IP address globally, retrieving detailed geographic data.</p>
                     <a href="https://play.google.com/store/apps/details?id=com.ip.tracker.esamtech" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">🌐</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">Bayim Mini Browser</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">Fast, data-saving browser featuring a built-in video downloader, Ad-blocker, and QR code generator.</p>
                     <a href="https://play.google.com/store/apps/details?id=com.bayim.esamtech" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">✨</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">UpSplash</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">Search, download, and share millions of high-quality, royalty-free HD wallpapers and stock photos.</p>
                     <a href="https://play.google.com/store/apps/details?id=com.esamtech.searchimage" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">📌</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">Pinterest Downloader</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">A seamless utility to effortlessly download high-quality videos, photos, and GIFs from Pinterest.</p>
                     <a href="https://play.google.com/store/apps/details?id=esamtech.pinterest.video.downloader.pin" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">🎲</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">Randomizer Tool</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">Your ultimate decision maker. Generate numbers, roll dice, or randomly pick from lists instantly.</p>
                     <a href="https://play.google.com/store/apps/dev?id=7996153649042722363" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full">
-                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6 flex items-center justify-center text-2xl">📍</div>
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl mb-6"></div>
                     <h3 class="text-xl font-semibold mb-2">GeoCam Plus</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">A camera utility that automatically overlays accurate GPS tags and coordinates onto your photos.</p>
                     <a href="https://play.google.com/store/apps/dev?id=7996153649042722363" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">Download App &rarr;</a>
                 </div>
 
                 <div class="minimal-card rounded-2xl p-8 flex flex-col h-full bg-gray-50 border-dashed">
-                    <div class="w-12 h-12 bg-white rounded-xl mb-6 flex items-center justify-center text-2xl shadow-sm">💻</div>
+                    <div class="w-12 h-12 bg-white rounded-xl mb-6 shadow-sm"></div>
                     <h3 class="text-xl font-semibold mb-2">More Utilities</h3>
                     <p class="text-gray-500 text-sm flex-grow mb-6">Including DSA 450 Track & Learn, Binary Decimal Hex Calculators, and Typing Master Speed Tests.</p>
                     <a href="https://play.google.com/store/apps/dev?id=7996153649042722363" target="_blank" class="text-sm font-medium hover:underline flex items-center gap-1">View Full Catalog &rarr;</a>
@@ -127,7 +186,29 @@
         </div>
     </main>
 
-    <footer class="bg-[#0a0a0a] text-white py-16">
+    <section class="border-t border-gray-100 bg-[#fcfcfc] py-16 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <p class="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-8">Powered By Modern Infrastructure</p>
+            <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale">
+                <span class="text-xl font-bold font-mono">Android / Kotlin</span>
+                <span class="text-xl font-bold font-mono">Node.js</span>
+                <span class="text-xl font-bold font-mono">Fastify</span>
+                <span class="text-xl font-bold font-mono">Cloudflare</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black text-white py-24 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-4xl font-bold tracking-tight mb-6">Have an idea or need support?</h2>
+            <p class="text-gray-400 text-lg mb-10">We are always open to feedback, bug reports, or discussing new app features.</p>
+            <a href="mailto:esamtech.in@gmail.com" class="bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-gray-200 transition-colors inline-block">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-[#0a0a0a] border-t border-gray-800 text-white py-16">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
                 <h4 class="text-2xl font-bold mb-4">Esamtech Studios.</h4>
